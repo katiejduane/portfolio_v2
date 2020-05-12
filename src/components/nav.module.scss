@@ -1,0 +1,14 @@
+.navbar {
+  list-style: none;
+  display: flex;
+}
+
+.navItem {
+  color: rgb(244, 168, 4);
+  text-decoration: none;
+  margin-right: 1.3rem;
+}
+.navItem:hover {
+  color: rebeccapurple;
+  text-decoration: underline;
+}
