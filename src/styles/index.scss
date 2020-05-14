@@ -1,3 +1,12 @@
+$color-title: #000000;
+$color-minor-title: #000000;
+$color-text: #000000;
+$color-header: #000000;
+$color-nav: #000000;
+$color-background: #000000;
+$color-footer: #000000;
+// you'll want set vars for... nav item text, nav item hover, possibly nav item background
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -199,8 +208,9 @@ html {
   box-sizing: inherit;
 }
 body {
+  margin: o;
   color: hsla(0, 0%, 0%, 0.8);
-  font-family: monospace, sans-serif;
+  font-family: Roboto, monospace; //the added font from google isn't working, even with plugin...
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -340,7 +350,7 @@ ul {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 0;
   list-style-position: outside;
   list-style-image: none;
 }
@@ -509,7 +519,7 @@ th {
   font-weight: bold;
 }
 li {
-  margin-bottom: calc(1.45rem / 2);
+  // margin-bottom: calc(1.45rem / 2);
 }
 ol li {
   padding-left: 0;
@@ -615,6 +625,11 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
+
+footer {
+  background-color: gray;
+}
+
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
