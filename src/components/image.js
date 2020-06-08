@@ -13,6 +13,25 @@ import Img from "gatsby-image"
  * - `useStaticQuery`: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
+// query HeroNameAndFriends($episode: Episode) {
+//   hero(episode: $episode) {
+//     name
+//     friends {
+//       name
+//     }
+//   }
+// }
+
+// export const pageQuery = graphql`
+//   coverImage: file(relativePath: { eq: "coverImage.png" }) {
+//     childImageSharp {
+//       fluid(maxWidth: 600) {
+//         ...GatsbyImageSharpFluid_tracedSVG
+//       }
+//     }
+//   }
+// }`
+
 const Image = () => {
   const data = useStaticQuery(graphql`
     query {
