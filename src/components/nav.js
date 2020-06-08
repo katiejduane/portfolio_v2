@@ -13,23 +13,28 @@ const NavBar = () => (
       </Link>
     </li>
     <li>
-      <Link className={styles.navItem} to="/projects/">
+      <Link className={styles.navItem} to="/development/">
         Projects
       </Link>
     </li>
     <li>
-      <Link className={styles.navItem} to="/skills/">
+      <Link className={styles.navItem} to="/writing/">
         Skills
+      </Link>
+    </li>
+    <li>
+      <Link className={styles.navItem} to="/yoga/">
+        Other Loves
+      </Link>
+    </li>
+    <li>
+      <Link className={styles.navItem} to="/blog/">
+        Contact
       </Link>
     </li>
     <li>
       <Link className={styles.navItem} to="/contact/">
         Contact
-      </Link>
-    </li>
-    <li>
-      <Link className={styles.navItem} to="/other-loves/">
-        Other Loves
       </Link>
     </li>
   </ul>
