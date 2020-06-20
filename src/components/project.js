@@ -8,7 +8,7 @@ import "../styles/index.scss"
 // should i use PROPS or graphql/markdown for project data? or a combo? handling the tech
 // icons (if i go that route) would be way easier with just html/props probably, but idk
 
-const Content = props => {
+const Project = props => {
   return (
     <div className="projectContainer">
       <h2>{props.projectName}</h2>
@@ -36,4 +36,4 @@ const Content = props => {
   )
 }
 
-export default Content
+export default Project

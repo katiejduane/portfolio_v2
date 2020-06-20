@@ -1,17 +1,21 @@
+$nav-main: rgb(100, 196, 198);
+$nav-text: white;
+$nav-hover: pink;
+
 .navbar {
   list-style: none;
   display: flex;
   margin-left: 0;
   padding: 1rem;
-  background-color: steelblue;
+  background-color: $nav-main;
 }
 
 .navItem {
-  color: rgb(244, 168, 4);
+  color: $nav-text;
   text-decoration: none;
   margin-right: 1.3rem;
 }
 .navItem:hover {
-  color: rebeccapurple;
+  color: $nav-hover;
   text-decoration: underline;
 }

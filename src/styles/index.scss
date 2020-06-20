@@ -3,7 +3,7 @@ $color-minor-title: #000000;
 $color-text: #000000;
 $color-header: #000000;
 $color-nav: #000000;
-$color-background: #000000;
+$color-background: #e8e8e8;
 $color-footer: #000000;
 // you'll want set vars for... nav item text, nav item hover, possibly nav item background
 
@@ -16,6 +16,7 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: $color-background;
 }
 article,
 aside,
