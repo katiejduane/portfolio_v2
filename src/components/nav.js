@@ -14,22 +14,22 @@ const NavBar = () => (
     </li>
     <li>
       <Link className={styles.navItem} to="/development/">
-        Projects
+        Development
       </Link>
     </li>
     <li>
       <Link className={styles.navItem} to="/writing/">
-        Skills
+        Writing
       </Link>
     </li>
     <li>
       <Link className={styles.navItem} to="/yoga/">
-        Other Loves
+        Yoga
       </Link>
     </li>
     <li>
       <Link className={styles.navItem} to="/blog/">
-        Contact
+        Blog
       </Link>
     </li>
     <li>

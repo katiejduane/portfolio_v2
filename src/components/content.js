@@ -7,23 +7,14 @@ import SEO from "../components/seo"
 import "../styles/index.scss"
 
 const Content = props => {
-  //   const data = useStaticQuery(graphql`
-  //     query SiteTitleQuery {
-  //       site {
-  //         siteMetadata {
-  //           title
-  //         }
-  //       }
-  //     }
-  //   `)
-
   return (
     <div className="c">
-      <SEO seo={props.seo} />
+      <SEO title={props.seo} />
       <h1>{props.title}</h1>
       <h2>{props.subtitle}</h2>
       <p>{props.p1}</p>
       <p>{props.p2}</p>
+      <p>{props.p3}</p>
       <div>{props.extras}</div>
       <div>{props.img}</div>
     </div>
