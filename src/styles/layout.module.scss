@@ -1,5 +1,6 @@
+// MAIN & LAYOUT
 $color-main: #fcfaf8;
-$color-text: rgb(77, 77, 77);
+$color-text: rgb(36, 36, 36);
 
 .container {
   margin: 0 auto;
@@ -11,7 +12,7 @@ $color-text: rgb(77, 77, 77);
 }
 
 .content {
-  min-width: 750px; // not permanent
+  width: 800px;
   margin: 0 auto;
   padding: 1rem;
   flex-grow: 1;

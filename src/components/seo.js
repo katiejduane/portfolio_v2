@@ -33,6 +33,11 @@ function SEO({ description, lang, meta, title }) {
         lang,
       }}
       title={title}
+      // link={[
+      //   (rel = "logo"),
+      //   (href = "images/typewriter-col.png"),
+      //   (type = "image/x-icon"),
+      // ]}
       titleTemplate={`%s | ${site.siteMetadata.title}`}
       meta={[
         {

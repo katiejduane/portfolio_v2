@@ -1,6 +1,6 @@
 import React from "react"
 import "../styles/index.scss"
-import styles from "../styles/skills.module.scss"
+import styles from "../styles/components.module.scss"
 
 const Skills = props => {
   let skillsArray = props.skills.split(", ")
