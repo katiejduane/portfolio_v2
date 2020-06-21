@@ -15,7 +15,6 @@ const Content = props => {
       <p>{props.p1}</p>
       <p>{props.p2}</p>
       <p>{props.p3}</p>
-      <div>{props.extras}</div>
       <div>{props.img}</div>
     </div>
   )

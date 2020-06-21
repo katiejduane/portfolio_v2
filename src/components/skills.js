@@ -3,12 +3,12 @@ import "../styles/index.scss"
 import styles from "../styles/skills.module.scss"
 
 const Skills = props => {
-  let skillsArray = props.skills.split(",")
+  let skillsArray = props.skills.split(", ")
   const skillz = skillsArray.map((skill, i) => {
     return (
       <div>
         {/* <i icon={skill}></i> */}
-        <span key={i} className={styles.skillSpan}>
+        <span key={skill} className={styles.skillSpan}>
           {skill}
         </span>
       </div>

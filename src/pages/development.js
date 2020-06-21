@@ -1,11 +1,25 @@
 import React from "react"
-import { Link } from "gatsby"
+import { graphql } from "gatsby"
+// import Img from "gatsby-image"
 import Layout from "../components/layout"
 import Content from "../components/content"
 import Skills from "../components/skills"
 
-const Development = () => (
+export const query = graphql`
+  query MyQuery {
+    file(relativePath: { eq: "images/icons/illustrator.png" }) {
+      childImageSharp {
+        fluid {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+  }
+`
+
+const Development = ({ data }) => (
   <Layout>
+    {/* <Img fluid={data.file.childImageSharp.fluid} alt="ai" /> */}
     <Content
       seo="Development"
       title="Development"
@@ -28,7 +42,6 @@ const Development = () => (
       header="Learning right now..."
       skills="C#, Kotlin, Web Components, p5.js, Wordpress"
     />
-    <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
 
