@@ -2,6 +2,9 @@ import React from "react"
 import "../styles/index.scss"
 import styles from "../styles/components.module.scss"
 
+// TO DO: figure out how to deal with this image issue so you can add logos (pngs) to
+// programming/design related skills
+
 const Skills = props => {
   let skillsArray = props.skills.split(", ")
   const skillz = skillsArray.map((skill, i) => {

@@ -13,8 +13,13 @@ export default function NavBar() {
         </Link>
       </li>
       <li>
-        <Link className={styles.navItem} to="/development/">
-          Development
+        <Link className={styles.navItem} to="/skills/">
+          Skills
+        </Link>
+      </li>
+      <li>
+        <Link className={styles.navItem} to="/dev-projects/">
+          Projects
         </Link>
       </li>
       <li>
@@ -28,13 +33,13 @@ export default function NavBar() {
         </Link>
       </li>
       <li>
-        <Link className={styles.navItem} to="/blog/">
-          Blog
+        <Link className={styles.navItem} to="/contact/">
+          Contact
         </Link>
       </li>
       <li>
-        <Link className={styles.navItem} to="/contact/">
-          Contact
+        <Link className={styles.navItem} to="/blog/">
+          Blog
         </Link>
       </li>
     </ul>

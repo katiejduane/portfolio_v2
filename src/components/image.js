@@ -2,6 +2,9 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 
+// TO DO: MAYBE get this working DYNAMICALLY so you can use with every icon you
+// intend to render under skillz!
+
 /*
  * This component is built using `gatsby-image` to automatically serve optimized
  * images with lazy loading and reduced file sizes. The image is loaded using a

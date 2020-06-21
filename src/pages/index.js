@@ -6,24 +6,26 @@ import Content from "../components/content"
 // import { graphql, useStaticQuery } from "gatsby"
 // import Img from "gatsby-image"
 
+// TO DO: figure out image issue and add bio pic
+
 const IndexPage = () => (
   <Layout>
     <Content
       seo="Home"
       title="Hello!"
       // subtitle="A little bit about me..."
-      p1="My name is Katie and I am a web developer, writer, and yoga teacher. I see writing 
-      code as similar to writing a good poem: it should be clear, efficient, beautiful, and accessible. 
-      I'm also and a devoted lover of coffee, books, trees, clouds, exploring, and outer space."
-      p2="Currently, I work as a Software Developer in Test at Ware2Go out of Atlanta, GA.
-      I love coming up with creative and efficient solutions, learning new technologies,
-      DRYing up my code, and collaborating with my colleagues. UI and API testing has taught
-      me a lot about what a structurally sound and testable application looks like, and I'd
-      love to bring this knowledge and experience into a developer role."
-      p3="My background is in education and the fine arts, and I taught art in Oregon, Ecuador,
-      and New York before realizing I desired a more technical career. In March of 2019, I completed 
-      a four month coding program at DigitalCrafts in Atlanta. When I'm not writing 
-      code, I'm probably busy writing essays, reading, or spending time outside."
+      p1="My name is Katie and I am a versatile, driven, and insatiably curious developer with a 
+      proclivity toward UI Development and Frontend Engineering. My background in arts and writing 
+      has prepared me with a keen eye, attention to detail, and innovative problem-solving skills. 
+      I love collaborating, communicating, and writing code that is clean, efficient, and accessible."
+      p2="Currently, I work as a Software Developer in Test at Ware2Go out of Atlanta, GA. I write 
+      end-to-end UI and API tests in JavaScript, and what I love most about my job are the daily 
+      opportunities to create or augment solutions to ensure that our test code is as stable, efficient, 
+      clean, and DRY as possible. I look forward to bringing everything I've learned in testing into
+      a developer role."
+      p3="When I'm not writing code, it's very likely that I'm writing essays or poetry, painting, 
+      reading (usually 18 books at once), or spending time outside. I'm also a registered yoga teacher 
+      and love to travel."
     />
   </Layout>
 )

@@ -7,7 +7,9 @@ const ContactPage = () => (
   <Layout>
     <SEO title="Contct" />
     <h1>Contact</h1>
-    <p>Links, Resume, etc will go here</p>
+    <p>
+      Professional links (LinkedIn, Github, email, etc), and Resume will go here
+    </p>
   </Layout>
 )
 
