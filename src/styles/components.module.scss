@@ -5,11 +5,11 @@
 // $header-text: rgb(36, 36, 36);
 // $header-shover: ;
 $nav-main: floralwhite;
-$nav-hover: hotpink;
+$nav-hover: rgb(147, 249, 233);
 $nav-text: rgb(36, 36, 36);
 $nav-text-hover: rgb(36, 36, 36);
 $skills-color: rgb(79, 79, 79);
-$skills-color-hover: rgb(217, 65, 247);
+$skills-color-hover: hotpink;
 
 // HEADER
 // .headerBar {
@@ -40,7 +40,6 @@ $skills-color-hover: rgb(217, 65, 247);
   margin-left: 0;
   padding: 0.5rem;
   background-color: $nav-main;
-  //   border-bottom: 2px solid black;
 }
 
 .navbar:hover {
@@ -54,7 +53,6 @@ $skills-color-hover: rgb(217, 65, 247);
 }
 .navItem:hover {
   color: $nav-text-hover;
-  //   text-decoration: underline;
   border-bottom: 2px solid black;
 }
 
@@ -65,5 +63,5 @@ $skills-color-hover: rgb(217, 65, 247);
 }
 .skillSpan:hover {
   color: $skills-color-hover;
-  cursor: pointer;
+  cursor: crosshair;
 }

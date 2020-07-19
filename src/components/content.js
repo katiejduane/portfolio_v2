@@ -10,8 +10,10 @@ const Content = props => {
   return (
     <div className={styles.inner}>
       <SEO title={props.seo} />
-      <h1 className={styles.contentTitle}>{props.title}</h1>
-      <h2>{props.subtitle}</h2>
+      <div className={styles.pageHeader}>
+        <h1 className={styles.contentTitle}>{props.title}</h1>
+        <h2>{props.subtitle}</h2>
+      </div>
       <p>{props.p1}</p>
       <p>{props.p2}</p>
       <p>{props.p3}</p>

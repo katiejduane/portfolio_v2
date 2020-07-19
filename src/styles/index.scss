@@ -1,5 +1,5 @@
 $color-background: floralwhite;
-$color-footer: #000000;
+$color-footer: rgb(36, 36, 36);
 // you'll want set vars for... nav item text, nav item hover, possibly nav item background
 
 html {
@@ -624,6 +624,13 @@ pre tt:after {
 
 footer {
   margin: 0 auto;
+  cursor: default;
+}
+footer > a {
+  color: rgb(36, 36, 36);
+}
+footer > a:hover {
+  color: hotpink;
 }
 
 @media only screen and (max-width: 480px) {

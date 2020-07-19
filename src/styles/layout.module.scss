@@ -1,6 +1,7 @@
 // CONTENT/MAIN & LAYOUT
 $color-main: floralwhite;
 $color-text: rgb(36, 36, 36);
+$color-bluegreen: rgb(147, 249, 233);
 
 .inner {
   margin-top: 3rem;
@@ -23,17 +24,25 @@ $color-text: rgb(36, 36, 36);
   flex-grow: 1;
   background-color: $color-main;
   color: $color-text;
+  cursor: default;
+}
+
+.pageHeader {
+  // text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .contentTitle {
-  text-align: center;
+  // text-align: center;
 }
 
 .contentTitle:hover {
-  color: turquoise;
-  // border-bottom: 2px dotted hotpink;
+  color: $color-bluegreen;
+  // border-bottom: 2px solid $color-text; // problematic because when this appears it pushes down the div beneath it
   text-decoration: underline;
   // text-decoration-style: dotted;
-  text-decoration-color: hotpink;
-  text-underline-position: above;
+  text-decoration-color: $color-text;
+  cursor: crosshair;
 }
