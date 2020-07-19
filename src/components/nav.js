@@ -19,12 +19,12 @@ export default function NavBar() {
       </li>
       <li>
         <Link className={styles.navItem} to="/dev-projects/">
-          Projects
+          Development
         </Link>
       </li>
       <li>
         <Link className={styles.navItem} to="/writing/">
-          Writing
+          Creative
         </Link>
       </li>
       <li>
@@ -37,11 +37,11 @@ export default function NavBar() {
           Contact
         </Link>
       </li>
-      <li>
+      {/* <li>
         <Link className={styles.navItem} to="/blog/">
           Blog
         </Link>
-      </li>
+      </li> */}
     </ul>
   )
 }

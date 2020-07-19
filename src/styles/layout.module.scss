@@ -1,6 +1,11 @@
-// MAIN & LAYOUT
-$color-main: #fcfaf8;
+// CONTENT/MAIN & LAYOUT
+$color-main: floralwhite;
 $color-text: rgb(36, 36, 36);
+
+.inner {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
 
 .container {
   margin: 0 auto;
@@ -18,4 +23,17 @@ $color-text: rgb(36, 36, 36);
   flex-grow: 1;
   background-color: $color-main;
   color: $color-text;
+}
+
+.contentTitle {
+  text-align: center;
+}
+
+.contentTitle:hover {
+  color: turquoise;
+  // border-bottom: 2px dotted hotpink;
+  text-decoration: underline;
+  // text-decoration-style: dotted;
+  text-decoration-color: hotpink;
+  text-underline-position: above;
 }
