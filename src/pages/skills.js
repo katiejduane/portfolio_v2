@@ -14,7 +14,7 @@ export default function Development() {
       <Content seo="Skills" title="Skills" />
       <Skills
         header="Frontend Development:"
-        skills="React.js, Redux, Javascript, CSS, SASS, HTML"
+        skills="React.js, Redux, Javascript, jQuery, CSS, SASS, HTML"
       />
       <Skills
         header="Backend Development:"
@@ -23,11 +23,11 @@ export default function Development() {
       <Skills header="Testing:" skills="Cypress, Selenium, Mocha.js, Ava.js" />
       <Skills
         header="Other Technologies:"
-        skills="CircleCI, Github Actions, Adobe PhotoShop, Adobe Illustrator, Adobe InDesign"
+        skills="Gatsby, Jekyll, CircleCI, Github Actions, Firebase, Adobe PhotoShop, Adobe Illustrator, Adobe InDesign"
       />
       <Skills
-        header="Tech I'm learning right now..."
-        skills="Angular, C#, Kotlin, p5.js, Wordpress"
+        header="Technologies I'm learning right now..."
+        skills="Wordpress, PHP, Angular"
       />
     </Layout>
   )
