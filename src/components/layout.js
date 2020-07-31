@@ -31,7 +31,12 @@ const Layout = ({ children }) => {
     <div className={styles.container}>
       {/* <Header siteTitle={data.site.siteMetadata.title} /> */}
       <NavBar />
+      {/* <div className={styles.innerWrapper}> */}
       <main className={styles.content}>{children}</main>
+      {/* <div className={styles.surprise}>
+          surprise image; shows only on sufficiently wide screens...
+        </div> */}
+      {/* </div> */}
       <Footer />
     </div>
   )

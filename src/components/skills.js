@@ -9,7 +9,7 @@ const Skills = props => {
   let skillsArray = props.skills.split(", ")
   const skillz = skillsArray.map((skill, i) => {
     return (
-      <div>
+      <div className={styles.skill}>
         {/* <i icon={skill}></i> */}
         <span key={skill} className={styles.skillSpan}>
           {skill}
@@ -18,7 +18,7 @@ const Skills = props => {
     )
   })
   return (
-    <div className="s">
+    <div className={styles.skillsBox}>
       <h4>{props.header}</h4>
       <div>{skillz}</div>
       <div>{props.icons}</div>

@@ -6,10 +6,11 @@
 // $header-shover: ;
 $nav-main: floralwhite;
 $nav-hover: rgb(147, 249, 233);
-$nav-text: rgb(36, 36, 36);
-$nav-text-hover: rgb(36, 36, 36);
+$color-dark-gray: rgb(36, 36, 36);
+$color-dark-gray-hover: rgb(36, 36, 36);
 $skills-color: rgb(79, 79, 79);
-$skills-color-hover: hotpink;
+$skills-color-pink: hotpink;
+$skills-color-bluegreen: rgb(147, 249, 233);
 
 // HEADER
 // .headerBar {
@@ -36,6 +37,7 @@ $skills-color-hover: hotpink;
 .navbar {
   list-style: none;
   display: flex;
+  justify-content: flex-end;
   //   flex-direction: column; // i think i'd like to eventually do a SIDE NAV, so this needs to change...
   margin-left: 0;
   padding: 0.5rem;
@@ -47,12 +49,12 @@ $skills-color-hover: hotpink;
 }
 
 .navItem {
-  color: $nav-text;
+  color: $color-dark-gray;
   text-decoration: none;
   margin-right: 1.3rem;
 }
 .navItem:hover {
-  color: $nav-text-hover;
+  color: $color-dark-gray-hover;
   border-bottom: 2px solid black;
 }
 
@@ -62,6 +64,25 @@ $skills-color-hover: hotpink;
   color: $skills-color;
 }
 .skillSpan:hover {
-  color: $skills-color-hover;
+  color: $skills-color-pink;
   cursor: crosshair;
+}
+.skill {
+  padding: 0.25rem;
+  margin: 0.25rem;
+  border: 1px solid $skills-color-bluegreen;
+  display: inline-block;
+}
+.skill:hover {
+  border: 1px solid floralwhite;
+}
+
+.skillsBox {
+  margin: 1.5rem;
+  box-sizing: border-box;
+}
+
+.skillsBox > h4 {
+  color: $color-dark-gray;
+  margin: 0.75rem 0rem;
 }
