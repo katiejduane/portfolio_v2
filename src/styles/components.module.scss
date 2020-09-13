@@ -37,25 +37,28 @@ $skills-color-bluegreen: rgb(147, 249, 233);
 .navbar {
   list-style: none;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   //   flex-direction: column; // i think i'd like to eventually do a SIDE NAV, so this needs to change...
   margin-left: 0;
+  margin-top: 1rem;
   padding: 0.5rem;
   background-color: $nav-main;
 }
 
-.navbar:hover {
-  background-color: $nav-hover;
-}
+// .navbar:hover {
+//   background-color: $nav-hover;
+// }
 
 .navItem {
   color: $color-dark-gray;
   text-decoration: none;
-  margin-right: 1.3rem;
+  // margin-right: 1.3rem;
+  padding: 0.5rem;
 }
 .navItem:hover {
   color: $color-dark-gray-hover;
-  border-bottom: 2px solid black;
+  //background-color: $nav-hover;
+  border-bottom: 2px solid $nav-hover;
 }
 
 // SPECIALTY COMPONENTS
