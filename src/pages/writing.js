@@ -15,7 +15,7 @@ export default function WritingPage() {
         seo="Writing & Art"
         title="Writing & Art"
         image={writingImg}
-        alt="Black and white photo of me"
+        alt="Writing journal"
         p1="I'm currently an MFA candidate in the low-residency program at the Rainer Writing Workshop, part of Pacific Luthern University.
         I tend to write nonfiction and my work often explores the connections between the personal and the scientific. 
         I am especially fascinated by time, impermanance, biology, physics, and the natural world. Please find links to 
