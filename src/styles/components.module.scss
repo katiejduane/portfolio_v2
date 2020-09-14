@@ -58,7 +58,8 @@ $skills-color-bluegreen: rgb(147, 249, 233);
 .navItem:hover {
   color: $color-dark-gray-hover;
   //background-color: $nav-hover;
-  border-bottom: 2px solid $nav-hover;
+  border-bottom: 5px solid $nav-hover;
+  text-decoration: none;
 }
 
 // SPECIALTY COMPONENTS

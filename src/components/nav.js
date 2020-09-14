@@ -27,11 +27,11 @@ export default function NavBar() {
           Creative
         </Link>
       </li>
-      <li>
+      {/* <li>
         <Link className={styles.navItem} to="/yoga/">
           Yoga
         </Link>
-      </li>
+      </li> */}
       <li>
         <Link className={styles.navItem} to="/contact/">
           Contact

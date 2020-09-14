@@ -13,7 +13,7 @@ export default function DevProjects() {
       <Content
         seo="Projects"
         title="Development Projects"
-        p1="Will be array of projects with image, desc, and links to code/live site if exists"
+        p1="Coming sooon; examples and links to dev work..."
       />
     </Layout>
   )

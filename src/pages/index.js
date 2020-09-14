@@ -2,6 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import Content from "../components/content"
+import portrait from "../assets/images/kd-bw.jpg"
 
 // import { graphql, useStaticQuery } from "gatsby"
 // import Img from "gatsby-image"
@@ -13,7 +14,8 @@ const IndexPage = () => (
     <Content
       seo="Home"
       title="Hello!"
-      // subtitle="A little bit about me..."
+      image={portrait}
+      alt="Black and white photo of me"
       p1="My name is Katie and I am a versatile, driven, and insatiably curious developer with a 
       proclivity toward UI Development and Frontend Engineering. My background in arts and writing 
       has prepared me with a keen eye, attention to detail, and innovative problem-solving skills. 

@@ -1,5 +1,7 @@
 $color-background: floralwhite;
 $color-footer: rgb(36, 36, 36);
+$color-link: rgb(36, 36, 36);
+$color-link-hover: hotpink;
 // you'll want set vars for... nav item text, nav item hover, possibly nav item background
 
 html {
@@ -47,10 +49,14 @@ template {
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
+  color: $color-link;
+  text-decoration: none;
 }
 a:active,
 a:hover {
   outline-width: 0;
+  color: $color-link-hover;
+  text-decoration: underline;
 }
 abbr[title] {
   border-bottom: none;

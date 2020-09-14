@@ -6,6 +6,7 @@ import Content from "../components/content"
 import Skills from "../components/skills"
 import SoftSkills from "../components/softskills"
 import styles from "../styles/layout.module.scss"
+import skillsImg from "../assets/images/resdotjson.png"
 
 // TO DO: Add sectiosns for other skills; professional general, educationa, yoga, creative, etc...
 // or maybe have them split at a higher lever: tech, edu, creative, yoga
@@ -13,7 +14,7 @@ import styles from "../styles/layout.module.scss"
 export default function Development() {
   return (
     <Layout>
-      <Content seo="Skills" title="Skills" />
+      <Content seo="Skills" title="Skills" image={skillsImg} alt="Javascript" />
       <div className={styles.centeringWrapper}>
         <Skills
           header="Frontend Development:"

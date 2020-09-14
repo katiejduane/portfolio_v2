@@ -14,10 +14,12 @@ const Content = props => {
         <h1 className={styles.contentTitle}>{props.title}</h1>
         <h2>{props.subtitle}</h2>
       </div>
+      <div className={styles.imgContainer}>
+        <img className={styles.mainImg} src={props.image} alt={props.alt} />
+      </div>
       <p>{props.p1}</p>
       <p>{props.p2}</p>
       <p>{props.p3}</p>
-      <div>{props.img}</div>
     </div>
   )
 }

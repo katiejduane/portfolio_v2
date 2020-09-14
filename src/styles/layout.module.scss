@@ -60,3 +60,34 @@ $color-bluegreen: rgb(147, 249, 233);
 // .centeringWrapper {
 //   //text-align: center;
 // }
+
+.imgContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mainImg {
+  border-radius: 50%;
+  width: 15rem;
+  margin: 1rem 1rem 2rem 1rem;
+}
+
+.subContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 1rem;
+}
+
+.linkBox {
+  display: flex;
+  flex-direction: column;
+  // text-align: center;
+}
+
+.linkBox > ul {
+  list-style: none;
+  margin-left: 0;
+}
