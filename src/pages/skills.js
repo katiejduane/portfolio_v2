@@ -32,7 +32,7 @@ export default function Development() {
         />
         <Skills
           header="Other Technologies:"
-          skills="Gatsby, Jekyll, CircleCI, Github Actions, Firebase, Adobe PhotoShop, Adobe Illustrator, Adobe InDesign"
+          skills="Gatsby, Jekyll, CircleCI, Github Actions, Firebase, Adobe PhotoShop, Adobe Illustrator, Adobe InDesign, Git, Jira, Confluence"
           // icons=""
         />
         <Skills
