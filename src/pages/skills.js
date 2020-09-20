@@ -18,7 +18,7 @@ export default function Development() {
       <div className={styles.centeringWrapper}>
         <Skills
           header="Frontend Development:"
-          skills="React.js, Redux, Javascript, jQuery, CSS, SASS, HTML"
+          skills="React.js, Redux, JavaScript, jQuery, CSS, SASS, HTML"
           // icons=""
         />
         <Skills
@@ -28,7 +28,7 @@ export default function Development() {
         />
         <Skills
           header="Testing:"
-          skills="Cypress, Selenium, Mocha.js, Ava.js"
+          skills="Cypress, Selenium, Mocha.js, React Testing Library"
         />
         <Skills
           header="Other Technologies:"
@@ -36,7 +36,7 @@ export default function Development() {
           // icons=""
         />
         <Skills
-          header="Technologies I'm learning right now:"
+          header="Tech I'm learning right now:"
           skills="Wordpress, PHP, Angular"
           // icons=""
         />
