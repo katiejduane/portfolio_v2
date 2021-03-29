@@ -1,0 +1,49 @@
+#home-button{
+    font-weight: 600;
+}
+
+.py-content {
+    margin: 0 auto;
+    padding: 0.5rem 0rem;
+    width: 90%;
+    height: 100vh;
+    background-color:rgb(238, 238, 238);
+}
+
+.video-wrapper {
+    margin: 15vh auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.adulting-video {
+    width: 90%;
+}
+
+p {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16pt;
+    color: rgb(23, 23, 23);
+    text-align: center;
+}
+
+
+@media (min-width: 640px) {
+    .video-wrapper {
+    margin: 15vh auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    }
+
+    .adulting-video {
+    width: 30rem;
+    }
+
+}
+

@@ -1,0 +1,93 @@
+// CONTENT/MAIN & LAYOUT
+$color-main: floralwhite;
+$color-text: rgb(36, 36, 36);
+$color-bluegreen: rgb(147, 249, 233);
+
+.inner {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+// .innerWrapper {
+//   display: flex;
+//   flex-direction: row;
+//   align-items: center;
+// }
+
+.content {
+  width: 55%;
+  margin: 0rem auto;
+  padding: 1rem;
+  flex-grow: 1;
+  background-color: $color-main;
+  color: $color-text;
+  cursor: default;
+}
+
+.surprise {
+  width: 10rem;
+}
+
+.pageHeader {
+  // text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.contentTitle {
+  // text-align: center;
+}
+
+.contentTitle:hover {
+  color: $color-bluegreen;
+  // border-bottom: 2px solid $color-text; // problematic because when this appears it pushes down the div beneath it
+  text-decoration: underline;
+  // text-decoration-style: dotted;
+  text-decoration-color: $color-text;
+  cursor: crosshair;
+}
+
+// .centeringWrapper {
+//   //text-align: center;
+// }
+
+.imgContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mainImg {
+  border-radius: 50%;
+  width: 15rem;
+  margin: 1rem 1rem 2rem 1rem;
+}
+
+.subContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 1rem;
+}
+
+.linkBox {
+  display: flex;
+  flex-direction: column;
+  // text-align: center;
+}
+
+.linkBox > ul {
+  list-style: none;
+  margin-left: 0;
+}
