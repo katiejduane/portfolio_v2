@@ -15,6 +15,8 @@ const Project = props => {
   })
   return (
     <div className="projectContainer">
+      {/* // this should not be hard coded but mapped out as an array and simply render array here
+      below just provides basic scaffolding */}
       <h2>{props.projectName}</h2>
       {/* // need to handle with gatsby image here, somehow */}
       <div>{props.img}</div>

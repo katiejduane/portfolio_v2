@@ -4,44 +4,21 @@ import React from "react"
 
 import styles from "../styles/components.module.scss"
 
+const navItems = [{link: '/', title: 'Home'},{link: '/skills/', title: 'Skills'},{link: '/dev-projects/', title: 'Development'},{link: '/creative/', title: 'Creative'},{link: '/contact/', title: 'Contact'}, {link: '/blog/', title: 'Blog'}]
+const navBar = navItems.map((item)=> {
+  return(
+    <li>
+        <Link className={styles.navItem} to={item.link}>
+          {item.title}
+        </Link>
+      </li>
+  )
+})
+
 export default function NavBar() {
   return (
     <ul className={styles.navbar}>
-      <li>
-        <Link className={styles.navItem} to="/">
-          Home
-        </Link>
-      </li>
-      <li>
-        <Link className={styles.navItem} to="/skills/">
-          Skills
-        </Link>
-      </li>
-      <li>
-        <Link className={styles.navItem} to="/dev-projects/">
-          Development
-        </Link>
-      </li>
-      <li>
-        <Link className={styles.navItem} to="/writing/">
-          Creative
-        </Link>
-      </li>
-      {/* <li>
-        <Link className={styles.navItem} to="/yoga/">
-          Yoga
-        </Link>
-      </li> */}
-      <li>
-        <Link className={styles.navItem} to="/contact/">
-          Contact
-        </Link>
-      </li>
-      {/* <li>
-        <Link className={styles.navItem} to="/blog/">
-          Blog
-        </Link>
-      </li> */}
+      {navBar}
     </ul>
   )
 }

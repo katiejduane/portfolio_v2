@@ -14,8 +14,7 @@ export default function WritingPage() {
         title="Writing & Art"
         image={writingImg}
         alt="Writing journal"
-        p1="I'm currently an MFA candidate in the low-residency program at the Rainier Writing Workshop, part of Pacific Lutheran University.
-        I tend to write nonfiction and my work often explores the connections between the personal and the scientific. 
+        p1="I tend to write nonfiction and my work often explores the connections between the personal and the scientific. 
         I am especially fascinated by time, impermanance, biology, geology, physics, and the natural world. Please find links to 
         published works below. Additional pieces forthcoming."
         p2="I also have degrees in Illustration and Art Education; and have worked professionally
